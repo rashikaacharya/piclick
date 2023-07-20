@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+.nav{
+    background-color: black;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,15);
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    float: left;
+    width:30%;
+}
+.logo img{
+    padding: 10px;
+    margin-left: 10px;
+}
+.hea1{
+    color: white;
+   margin-right: 400px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family: cosmic, sans-serif;
+    float: left;
+}
+.nav_side{
+    float: right;
+    width: 30%;
+    margin-top: 50px;
+}
+.nav_side a{
+   
+    text-decoration: none;
+    margin-right: 10px;
+    padding-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    color: aqua;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+.main{
+   background-image:url('1.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 80vh;
+}
+.main .main_cont{
+    padding-top: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    text-align: center;
+    color: azure;
+}
+.main .main_cont H2{
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+}
+.main .main_cont span{
+    color: white;
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.main .main_cont .btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.main .main_cont .btn a{
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-family: cosmic, sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.main .main_cont .btn a:hover{
+    color: red;
+    transition: 0.5s;
+    background-color: black;
+    border: 2px solid white;
+}
+.product h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.product .pro_cont{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .pro_cont .item{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+.product .pro_cont .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .pro_cont .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product{
+    padding-bottom: 50px;
+}
+.product .pro_cont .item .item_cont{
+    text-align: center;
+}
+.product .pro_cont .item .item_cont h3{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+.product .pro_cont .item .item_cont a{
+text-decoration: none;
+padding-left: 50px;
+padding: 8px 20px;
+background-color: black;
+color: white;
+border: 3px solid white;
+font-family: cosmic, sans-serif;
+border-radius: 10px;
+line-height: 40px;
+}
+.product .pro_cont .item .item_cont a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.product .pro_cont .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 15);
+}
+.product .pro_cont .item .item_cont p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+.product .pro_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.product .pro_btn a{
+    text-decoration: none;
+padding-left: 50px;
+padding: 8px 20px;
+background-color: black;
+color: white;
+font-family: cosmic, sans-serif;
+border-radius: 10px;
+}
+.product .pro_btn a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.keypoint{
+  margin-top: 0px;
+}
+.keypoint h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoint .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    border-left: 3px solid black;
+    border-bottom:3px solid black ;
+    color: black;
+    text-align: left;
+    font-family: cosmic, sans-serif;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 15);
+}
+.key_img{
+    width:40%;
+    height: 100px;
+    float: right;
+    padding-left: 70px;
+    align-items: center;
+}
+.keypoint .key_container .key_img img{
+    width: 100%;
+}
+.testimonial{
+    padding-top: 5px;
+    padding-bottom: 5%;
+}
+.testimonial h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    border-top: red;
+}
+.testimonial .test_cont{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    height: 100px;
+}
+.testimonial .test_cont .item{
+    width: 100%;
+    padding: 2px;
+    background-color: white;
+    box-shadow: none;
+}
+.testimonial .test_cont .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testimonial .test_cont .item .item_img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+.testimonial  img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px;
+}
+.testimonial .test_cont .item .item_cont{
+    text-align: center;
+}
+.testimonial .test_cont .item .item_cont h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+}
+.testimonial .test_cont .item .item_cont p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer{
+    margin-top: 200px;
+    background-color:black;
+    padding: 50px;
+
+}
+footer .pages{
+    padding-left: 600px;
+    padding-top: 50px;
+    
+}
+footer .pages h3{
+    color: white;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+    margin-left: 150px;
+}
+footer .pages a{
+    text-align: center;
+    text-decoration: none;
+    margin:10px;
+    color:white;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .pages a:hover{
+    color: white;
+}
+footer .doc{
+    padding-left: 600px;
+}
+.doc h3{
+    color:white;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+    margin-left: 120px;
+}
+footer .doc a{
+    margin-left: 30px;
+    text-decoration: none;
+    margin:10px;
+    color:white;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    padding-left:600px;
+}
+footer .social h3{
+    color: white;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+    margin-left: 120px;
+}
+footer .contact{
+    padding-left: 600px;
+}
+footer .contact h3{
+    color: white;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+    margin-left: 120px;
+}
+ footer .social a{
+    padding-left: 10px;
+margin-left: 50px; 
+font-size: 20px;  
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer .contact a{
+    padding-left: 30px;
+margin-left: 50px; 
+font-size: 20px;  
+}
+
+.team{
+margin-top: 100px;
+
+}
+.team h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.team .team_cont{
+    display: flex;
+}
+.team .team_cont .team_video{
+     width: 40%;
+     padding: 20px;
+     margin-left: 50px;
+}
+.team .team_cont .team_video video{
+    width: 100%;
+    border: 10px solid black;
+}
+.team .team_cont .team_contt{
+    width: 60%;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.feed{
+    background-color: black;
+    background-size: cover;
+}
+.feed h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.feed .feed_form{
+    color: white;
+    text-align: center;
+ 
+}
+.feed .feed_form form{
+    padding: 20px;
+}
+.feed .feed_form form input{
+   width: 30%; 
+   height: 40px;
+   border-radius: 8px ;
+   color: black;
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    border-radius: 8px ;
+    color: black;
+}
+.feed .feed_form form button{
+    width: 10%;
+    height: 50px;
+    color: white;
+    background: black;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.feed .feed_form form button:hover{
+    color: black;
+    background: white;
+    border: 3px solid green;
+}
